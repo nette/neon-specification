@@ -1,0 +1,6 @@
+corpus/**       -text
+.gitattributes  export-ignore
+.gitignore      export-ignore
+AGENTS.md       export-ignore
+tools/          export-ignore
+.github         export-ignore
