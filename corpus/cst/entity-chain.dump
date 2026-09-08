@@ -1,0 +1,17 @@
+DocumentNode
+	value: EntityChainNode
+		entities:
+			- EntityNode
+				value: LiteralNode
+					token: Literal "a"
+				attributes: InlineArrayNode
+					openBracket: OpenParen "("
+					items:
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "1"
+					closeBracket: CloseParen ")"
+			- EntityNode
+				value: LiteralNode
+					token: Literal "b"
+	endOfFile: EndOfFile ""

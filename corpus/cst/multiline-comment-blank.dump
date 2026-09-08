@@ -1,0 +1,10 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "'''\n\tx\n'''" >[Whitespace "  ", Comment "# c", LineEnding "\n"]
+	endOfFile: EndOfFile "" <[LineEnding "\n"]

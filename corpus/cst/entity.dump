@@ -1,0 +1,15 @@
+DocumentNode
+	value: EntityNode
+		value: LiteralNode
+			token: Literal "Foo"
+		attributes: InlineArrayNode
+			openBracket: OpenParen "("
+			items:
+				- ArrayItemNode
+					key: LiteralNode
+						token: Literal "x"
+					colon: Colon ":" >[Whitespace " "]
+					value: LiteralNode
+						token: Literal "1"
+			closeBracket: CloseParen ")"
+	endOfFile: EndOfFile ""

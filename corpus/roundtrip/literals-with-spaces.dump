@@ -1,0 +1,28 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "size"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "42 px" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "font"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "Helvetica Neue" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "msg"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "hello   world" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "mixed"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "a\tb" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

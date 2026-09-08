@@ -1,0 +1,28 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: StringNode
+					token: String "'a b'"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: StringNode
+					token: String "\"c:d\""
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "2" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: StringNode
+					token: String "'#'"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "3" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: StringNode
+					token: String "\"\""
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "4" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

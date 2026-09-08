@@ -1,0 +1,88 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "service"
+				colon: Colon ":" >[Whitespace " "]
+				value: EntityNode
+					value: LiteralNode
+						token: Literal "Foo"
+					attributes: InlineArrayNode
+						openBracket: OpenParen "(" >[LineEnding "\n"]
+						items:
+							- ArrayItemNode
+								value: LiteralNode
+									token: Literal "arg1" <[Whitespace "\t"]
+								separator: Comma "," >[LineEnding "\n"]
+							- ArrayItemNode
+								key: LiteralNode
+									token: Literal "named" <[Whitespace "\t"]
+								colon: Colon ":" >[Whitespace " "]
+								value: LiteralNode
+									token: Literal "value"
+								separator: Comma "," >[LineEnding "\n"]
+							- ArrayItemNode
+								key: LiteralNode
+									token: Literal "nested" <[Whitespace "\t"]
+								colon: Colon ":" >[Whitespace " "]
+								value: EntityNode
+									value: LiteralNode
+										token: Literal "Bar"
+									attributes: InlineArrayNode
+										openBracket: OpenParen "("
+										items:
+											- ArrayItemNode
+												value: LiteralNode
+													token: Literal "1"
+												separator: Comma "," >[Whitespace " "]
+											- ArrayItemNode
+												value: LiteralNode
+													token: Literal "2"
+										closeBracket: CloseParen ")" >[LineEnding "\n"]
+						closeBracket: CloseParen ")" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "chain"
+				colon: Colon ":" >[Whitespace " "]
+				value: EntityChainNode
+					entities:
+						- EntityNode
+							value: LiteralNode
+								token: Literal "Foo"
+							attributes: InlineArrayNode
+								openBracket: OpenParen "("
+								items:
+									- ArrayItemNode
+										value: LiteralNode
+											token: Literal "1"
+								closeBracket: CloseParen ")"
+						- EntityNode
+							value: LiteralNode
+								token: Literal "::bar"
+							attributes: InlineArrayNode
+								openBracket: OpenParen "("
+								items:
+									- ArrayItemNode
+										value: LiteralNode
+											token: Literal "2"
+								closeBracket: CloseParen ")"
+						- EntityNode
+							value: LiteralNode
+								token: Literal "::baz"
+							attributes: InlineArrayNode
+								openBracket: OpenParen "("
+								items: []
+								closeBracket: CloseParen ")" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "empty"
+				colon: Colon ":" >[Whitespace " "]
+				value: EntityNode
+					value: LiteralNode
+						token: Literal "Foo"
+					attributes: InlineArrayNode
+						openBracket: OpenParen "(" >[LineEnding "\n"]
+						items: []
+						closeBracket: CloseParen ")" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

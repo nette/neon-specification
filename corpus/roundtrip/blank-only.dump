@@ -1,0 +1,2 @@
+DocumentNode
+	endOfFile: EndOfFile "" <[LineEnding "\n", LineEnding "\n", Whitespace "  ", LineEnding "\n", Whitespace "\t", LineEnding "\n"]

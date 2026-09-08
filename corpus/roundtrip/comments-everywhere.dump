@@ -1,0 +1,67 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a" <[Comment "# header of the file", LineEnding "\n", Comment "# second line of the header", LineEnding "\n", LineEnding "\n", Comment "# above an item", LineEnding "\n"]
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[Whitespace " ", Comment "# after a value", LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "b"
+				colon: Colon ":" >[Whitespace " ", Comment "# after a colon", LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "c" <[Whitespace "\t", Comment "# inside a block, above an item", LineEnding "\n", Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "2" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "d" <[Whitespace "\t", Comment "# between items", LineEnding "\n", Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: InlineArrayNode
+								openBracket: OpenBracket "["
+								items:
+									- ArrayItemNode
+										value: LiteralNode
+											token: Literal "1"
+										separator: Comma "," >[Whitespace " ", Comment "# inside an inline array", LineEnding "\n"]
+									- ArrayItemNode
+										value: LiteralNode
+											token: Literal "2" <[Whitespace "\t\t"] >[Whitespace " ", Comment "# before a closing bracket", LineEnding "\n"]
+								closeBracket: CloseBracket "]" <[Whitespace "\t"] >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "e"
+				colon: Colon ":" >[Whitespace " "]
+				value: EntityChainNode
+					entities:
+						- EntityNode
+							value: LiteralNode
+								token: Literal "foo"
+							attributes: InlineArrayNode
+								openBracket: OpenParen "("
+								items:
+									- ArrayItemNode
+										value: LiteralNode
+											token: Literal "a"
+								closeBracket: CloseParen ")" >[Whitespace " "]
+						- EntityNode
+							value: LiteralNode
+								token: Literal "bar"
+							attributes: InlineArrayNode
+								openBracket: OpenParen "("
+								items:
+									- ArrayItemNode
+										value: LiteralNode
+											token: Literal "b"
+								closeBracket: CloseParen ")" >[Whitespace " ", Comment "# after a chain", LineEnding "\n"]
+			- ArrayItemNode
+				bullet: Dash "-" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "x" >[Whitespace " ", Comment "# after a dash item", LineEnding "\n"]
+	endOfFile: EndOfFile "" <[LineEnding "\n", Comment "# before the end of the file", LineEnding "\n", Comment "# without a final line ending"]

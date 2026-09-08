@@ -1,0 +1,45 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a" <[Comment "# comment", LineEnding "\r\n"]
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[LineEnding "\r\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "b"
+				colon: Colon ":" >[LineEnding "\r\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "\t"] >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "x" >[LineEnding "\r\n"]
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "\t"] >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "y" >[LineEnding "\r\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "c"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "'''\r\n\tline 1\r\n\tline 2\r\n'''" >[LineEnding "\r\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "d"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBracket "["
+					items:
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "1"
+							separator: Comma "," >[LineEnding "\r\n"]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "2" <[Whitespace "\t"]
+					closeBracket: CloseBracket "]" >[LineEnding "\r\n"]
+	endOfFile: EndOfFile ""

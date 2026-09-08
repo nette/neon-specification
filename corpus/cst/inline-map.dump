@@ -1,0 +1,16 @@
+DocumentNode
+	value: InlineArrayNode
+		openBracket: OpenBrace "{"
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1"
+				separator: Comma "," >[Whitespace " "]
+			- ArrayItemNode
+				value: LiteralNode
+					token: Literal "b"
+		closeBracket: CloseBrace "}"
+	endOfFile: EndOfFile ""

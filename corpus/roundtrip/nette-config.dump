@@ -1,0 +1,253 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "parameters"
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "database" <[Whitespace "\t"]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "dsn" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: StringNode
+											token: String "'mysql:host=127.0.0.1;dbname=test'" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "user" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "root" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "password" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: StringNode
+											token: String "''" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "application" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "errorPresenter" <[Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "Error" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "mapping" <[Whitespace "\t"]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "*" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "App\\UI\\*\\**Presenter" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "session" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "expiration" <[Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "14 days" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "extensions" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "console" <[Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: EntityNode
+								value: LiteralNode
+									token: Literal "Contributte\\Console\\DI\\ConsoleExtension"
+								attributes: InlineArrayNode
+									openBracket: OpenParen "("
+									items:
+										- ArrayItemNode
+											value: LiteralNode
+												token: Literal "%consoleMode%"
+									closeBracket: CloseParen ")" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "services" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "\t"] >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "App\\Model\\UserFacade" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "router" <[Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "App\\Router\\RouterFactory::createRouter" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "authenticator" <[Whitespace "\t"]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "factory" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: EntityNode
+											value: LiteralNode
+												token: Literal "App\\Model\\Authenticator"
+											attributes: InlineArrayNode
+												openBracket: OpenParen "("
+												items:
+													- ArrayItemNode
+														value: LiteralNode
+															token: Literal "@database.default.context"
+														separator: Comma "," >[Whitespace " "]
+													- ArrayItemNode
+														value: LiteralNode
+															token: Literal "%salt%"
+												closeBracket: CloseParen ")" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "setup" <[Whitespace "\t\t"]
+										colon: Colon ":" >[LineEnding "\n"]
+										value: BlockArrayNode
+											items:
+												- ArrayItemNode
+													bullet: Dash "-" <[Whitespace "\t\t\t"] >[Whitespace " "]
+													value: EntityNode
+														value: LiteralNode
+															token: Literal "setDebug"
+														attributes: InlineArrayNode
+															openBracket: OpenParen "("
+															items:
+																- ArrayItemNode
+																	value: LiteralNode
+																		token: Literal "%debugMode%"
+															closeBracket: CloseParen ")" >[LineEnding "\n"]
+												- ArrayItemNode
+													bullet: Dash "-" <[Whitespace "\t\t\t"] >[Whitespace " "]
+													value: BlockArrayNode
+														items:
+															- ArrayItemNode
+																key: StringNode
+																	token: String "'$onLoggedIn[]'" >[Whitespace " "]
+																colon: Equals "=" >[Whitespace " "]
+																value: InlineArrayNode
+																	openBracket: OpenBracket "["
+																	items:
+																		- ArrayItemNode
+																			value: LiteralNode
+																				token: Literal "@logger"
+																			separator: Comma "," >[Whitespace " "]
+																		- ArrayItemNode
+																			value: LiteralNode
+																				token: Literal "log"
+																	closeBracket: CloseBracket "]" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "cache" <[Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: EntityNode
+								value: LiteralNode
+									token: Literal "Nette\\Caching\\Storages\\FileStorage"
+								attributes: InlineArrayNode
+									openBracket: OpenParen "("
+									items:
+										- ArrayItemNode
+											value: LiteralNode
+												token: Literal "%tempDir%"
+									closeBracket: CloseParen ")" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "mailer" <[Whitespace "\t"]
+							colon: Colon ":" >[Whitespace " "]
+							value: EntityChainNode
+								entities:
+									- EntityNode
+										value: LiteralNode
+											token: Literal "@nette.mailer::withSender"
+										attributes: InlineArrayNode
+											openBracket: OpenParen "("
+											items:
+												- ArrayItemNode
+													key: LiteralNode
+														token: Literal "sender"
+													colon: Colon ":" >[Whitespace " "]
+													value: StringNode
+														token: String "'a@b.cz'"
+											closeBracket: CloseParen ")"
+									- EntityNode
+										value: LiteralNode
+											token: Literal "::withRetry"
+										attributes: InlineArrayNode
+											openBracket: OpenParen "("
+											items:
+												- ArrayItemNode
+													value: LiteralNode
+														token: Literal "3"
+											closeBracket: CloseParen ")" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "formFactory" <[Whitespace "\t"]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "factory" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "App\\Forms\\FormFactory" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "tags" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: InlineArrayNode
+											openBracket: OpenBracket "["
+											items:
+												- ArrayItemNode
+													value: LiteralNode
+														token: Literal "form.factory"
+											closeBracket: CloseBracket "]" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "autowired" <[Whitespace "\t\t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "false" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "includes" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "\t"] >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "services.neon" >[LineEnding "\n"]
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "\t"] >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "local.neon" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

@@ -1,0 +1,16 @@
+database:
+    dsn: "sqlite:%appDir%/db.sqlite"
+    options:
+        lazy: yes
+
+services:
+    - App\Model\ArticleRepository(@database.explorer)
+    latte.latteFactory:
+        setup:
+            - addFilter(money, [App\Filters, money])
+
+search:
+    -
+        in: %appDir%
+        classes:
+            - *Factory

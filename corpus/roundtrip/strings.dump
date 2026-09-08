@@ -1,0 +1,52 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "single"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "'it''s'" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "double"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "\"tab\\there \\u00e9 \\\"q\\\"\"" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "empty1"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "''" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "empty2"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "\"\"" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "multi1"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "'''\n\tfirst\n\t  indented\n\n\tlast\n'''" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "multi2"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "\"\"\"\n\t\\t escaped\n\"\"\"" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "multi3"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "'''\n    closing deeper\n  '''" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "multi4"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "'''\n'''\nmulti5: '''\n\n\n\tafter empty lines\n'''" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

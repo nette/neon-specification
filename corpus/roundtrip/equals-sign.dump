@@ -1,0 +1,43 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a" >[Whitespace " "]
+				colon: Equals "=" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "b"
+				colon: Equals "=" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "2" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "c" >[Whitespace " "]
+				colon: Equals "="
+				value: LiteralNode
+					token: Literal "3" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "section" >[Whitespace " "]
+				colon: Equals "=" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBrace "{"
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "x" >[Whitespace " "]
+							colon: Equals "=" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "1"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "y" >[Whitespace " "]
+							colon: Equals "=" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "2"
+					closeBracket: CloseBrace "}" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

@@ -1,0 +1,10 @@
+DocumentNode
+	value: InlineArrayNode
+		openBracket: OpenBracket "[" >[LineEnding "\n"]
+		items:
+			- ArrayItemNode
+				value: LiteralNode
+					token: Literal "a" <[Whitespace "\t"]
+				separator: Comma "," >[LineEnding "\n"]
+		closeBracket: CloseBracket "]"
+	endOfFile: EndOfFile ""
