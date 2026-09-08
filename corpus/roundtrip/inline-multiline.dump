@@ -1,0 +1,52 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "list"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBracket "[" >[LineEnding "\n"]
+					items:
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "a" <[Whitespace "\t"]
+							separator: Comma "," >[LineEnding "\n"]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "b" <[Whitespace "  "]
+							separator: Comma "," >[LineEnding "\n"]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "c" <[Whitespace "\t\t\t"]
+							separator: Comma "," >[LineEnding "\n"]
+					closeBracket: CloseBracket "]" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "map"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBrace "{" >[LineEnding "\n"]
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "x" <[Whitespace "  "]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "1"
+							separator: Comma "," >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "y" <[LineEnding "\n", Whitespace "  "]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "2" >[LineEnding "\n"]
+							separator: Comma "," <[Whitespace "  "] >[Whitespace " "]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "z"
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "3" >[LineEnding "\n"]
+					closeBracket: CloseBrace "}" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

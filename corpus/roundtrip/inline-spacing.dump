@@ -1,0 +1,89 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBracket "[" >[Whitespace " "]
+					items:
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "1" >[Whitespace " "]
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "2" >[Whitespace " "]
+							separator: Comma ","
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "3" >[Whitespace " "]
+					closeBracket: CloseBracket "]" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "b"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBrace "{"
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "x"
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "1"
+							separator: Comma ","
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "y" >[Whitespace " "]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "2"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "z" >[Whitespace " "]
+							colon: Equals "=" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "3"
+					closeBracket: CloseBrace "}" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "c"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBrace "{" >[Whitespace " "]
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "a" >[Whitespace " "]
+							colon: Equals "="
+							value: LiteralNode
+								token: Literal "b" >[Whitespace " "]
+					closeBracket: CloseBrace "}" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "d"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBracket "["
+					items: []
+					closeBracket: CloseBracket "]" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "e"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBrace "{"
+					items: []
+					closeBracket: CloseBrace "}" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "f"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenParen "("
+					items: []
+					closeBracket: CloseParen ")" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

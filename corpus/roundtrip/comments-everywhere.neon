@@ -1,0 +1,17 @@
+# header of the file
+# second line of the header
+
+# above an item
+a: 1 # after a value
+b: # after a colon
+	# inside a block, above an item
+	c: 2
+	# between items
+	d: [1, # inside an inline array
+		2 # before a closing bracket
+	]
+e: foo(a) bar(b) # after a chain
+- x # after a dash item
+
+# before the end of the file
+# without a final line ending

@@ -1,0 +1,109 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "database"
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "dsn" <[Whitespace "    "]
+							colon: Colon ":" >[Whitespace " "]
+							value: StringNode
+								token: String "\"sqlite:%appDir%/db.sqlite\"" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "options" <[Whitespace "    "]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "lazy" <[Whitespace "        "]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "yes" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "services" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "    "] >[Whitespace " "]
+							value: EntityNode
+								value: LiteralNode
+									token: Literal "App\\Model\\ArticleRepository"
+								attributes: InlineArrayNode
+									openBracket: OpenParen "("
+									items:
+										- ArrayItemNode
+											value: LiteralNode
+												token: Literal "@database.explorer"
+									closeBracket: CloseParen ")" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "latte.latteFactory" <[Whitespace "    "]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "setup" <[Whitespace "        "]
+										colon: Colon ":" >[LineEnding "\n"]
+										value: BlockArrayNode
+											items:
+												- ArrayItemNode
+													bullet: Dash "-" <[Whitespace "            "] >[Whitespace " "]
+													value: EntityNode
+														value: LiteralNode
+															token: Literal "addFilter"
+														attributes: InlineArrayNode
+															openBracket: OpenParen "("
+															items:
+																- ArrayItemNode
+																	value: LiteralNode
+																		token: Literal "money"
+																	separator: Comma "," >[Whitespace " "]
+																- ArrayItemNode
+																	value: InlineArrayNode
+																		openBracket: OpenBracket "["
+																		items:
+																			- ArrayItemNode
+																				value: LiteralNode
+																					token: Literal "App\\Filters"
+																				separator: Comma "," >[Whitespace " "]
+																			- ArrayItemNode
+																				value: LiteralNode
+																					token: Literal "money"
+																		closeBracket: CloseBracket "]"
+															closeBracket: CloseParen ")" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "search" <[LineEnding "\n"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "    "] >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "in" <[Whitespace "        "]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "%appDir%" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "classes" <[Whitespace "        "]
+										colon: Colon ":" >[LineEnding "\n"]
+										value: BlockArrayNode
+											items:
+												- ArrayItemNode
+													bullet: Dash "-" <[Whitespace "            "] >[Whitespace " "]
+													value: LiteralNode
+														token: Literal "*Factory" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

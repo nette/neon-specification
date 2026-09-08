@@ -1,0 +1,40 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				bullet: Dash "-" >[Whitespace " "]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "a"
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "1" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "b" <[Whitespace "  "]
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "2" >[LineEnding "\n"]
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "c" <[Whitespace "  "]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										bullet: Dash "-" <[Whitespace "    "] >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "x" >[LineEnding "\n"]
+			- ArrayItemNode
+				bullet: Dash "-" >[Whitespace " "]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "e"
+							colon: Colon ":" >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "5" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

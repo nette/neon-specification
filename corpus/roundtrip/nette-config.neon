@@ -1,0 +1,35 @@
+parameters:
+	database:
+		dsn: 'mysql:host=127.0.0.1;dbname=test'
+		user: root
+		password: ''
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\UI\*\**Presenter
+
+session:
+	expiration: 14 days
+
+extensions:
+	console: Contributte\Console\DI\ConsoleExtension(%consoleMode%)
+
+services:
+	- App\Model\UserFacade
+	router: App\Router\RouterFactory::createRouter
+	authenticator:
+		factory: App\Model\Authenticator(@database.default.context, %salt%)
+		setup:
+			- setDebug(%debugMode%)
+			- '$onLoggedIn[]' = [@logger, log]
+	cache: Nette\Caching\Storages\FileStorage(%tempDir%)
+	mailer: @nette.mailer::withSender(sender: 'a@b.cz')::withRetry(3)
+	formFactory:
+		factory: App\Forms\FormFactory
+		tags: [form.factory]
+		autowired: false
+
+includes:
+	- services.neon
+	- local.neon

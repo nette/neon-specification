@@ -1,0 +1,4 @@
+DocumentNode
+	value: LiteralNode
+		token: Literal "a"
+	endOfFile: EndOfFile ""

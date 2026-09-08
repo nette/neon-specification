@@ -1,0 +1,14 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "first"
+				colon: Colon ":" >[Whitespace " ", Comment "# c", LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							bullet: Dash "-" <[Whitespace "\t"] >[Whitespace " "]
+							value: LiteralNode
+								token: Literal "a" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

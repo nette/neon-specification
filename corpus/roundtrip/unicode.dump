@@ -1,0 +1,22 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "název"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "žluťoučký kůň" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: StringNode
+					token: String "'klíč s mezerou'"
+				colon: Colon ":" >[Whitespace " "]
+				value: StringNode
+					token: String "\"úpěl\"" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "emoji"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "🐴" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

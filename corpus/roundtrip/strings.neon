@@ -1,0 +1,23 @@
+single: 'it''s'
+double: "tab\there \u00e9 \"q\""
+empty1: ''
+empty2: ""
+multi1: '''
+	first
+	  indented
+
+	last
+'''
+multi2: """
+	\t escaped
+"""
+multi3: '''
+    closing deeper
+  '''
+multi4: '''
+'''
+multi5: '''
+
+
+	after empty lines
+'''

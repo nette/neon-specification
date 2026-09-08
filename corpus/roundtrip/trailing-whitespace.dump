@@ -1,0 +1,20 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[Whitespace "   ", LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "b"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "2" >[Whitespace "\t", LineEnding "\n"]
+			- ArrayItemNode
+				bullet: Dash "-" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "x" >[Whitespace "  ", LineEnding "\n"]
+	endOfFile: EndOfFile "" <[Whitespace "  ", LineEnding "\n"]

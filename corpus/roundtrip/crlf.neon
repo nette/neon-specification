@@ -1,0 +1,11 @@
+# comment
+a: 1
+b:
+	- x
+	- y
+c: '''
+	line 1
+	line 2
+'''
+d: [1,
+	2]

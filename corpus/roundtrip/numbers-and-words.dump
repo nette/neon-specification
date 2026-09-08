@@ -1,0 +1,90 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBracket "["
+					items:
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "0x1F"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "0o17"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "0b101"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "1_000"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "1e3"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal ".5"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "-0"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "+1"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "0777"
+					closeBracket: CloseBracket "]" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "b"
+				colon: Colon ":" >[Whitespace " "]
+				value: InlineArrayNode
+					openBracket: OpenBracket "["
+					items:
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "yes"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "No"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "TRUE"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "null"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "on"
+							separator: Comma "," >[Whitespace " "]
+						- ArrayItemNode
+							value: LiteralNode
+								token: Literal "off"
+					closeBracket: CloseBracket "]" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "c"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "2016-06-03 19:00:00 +02:00" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "d"
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "2016-6-3" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""

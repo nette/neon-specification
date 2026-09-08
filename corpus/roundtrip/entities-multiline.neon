@@ -1,0 +1,8 @@
+service: Foo(
+	arg1,
+	named: value,
+	nested: Bar(1, 2)
+)
+chain: Foo(1)::bar(2)::baz()
+empty: Foo(
+)

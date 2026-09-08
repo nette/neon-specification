@@ -1,0 +1,10 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a" <[ByteOrderMark "﻿"]
+				colon: Colon ":" >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[LineEnding "\r\n"]
+	endOfFile: EndOfFile ""

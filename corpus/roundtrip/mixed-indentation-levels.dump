@@ -1,0 +1,46 @@
+DocumentNode
+	value: BlockArrayNode
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a"
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "b" <[Whitespace "\t"]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "c" <[Whitespace "\t    "]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "1" >[LineEnding "\n"]
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "d" <[Whitespace "\t    "]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "2" >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "x"
+				colon: Colon ":" >[LineEnding "\n"]
+				value: BlockArrayNode
+					items:
+						- ArrayItemNode
+							key: LiteralNode
+								token: Literal "y" <[Whitespace "  "]
+							colon: Colon ":" >[LineEnding "\n"]
+							value: BlockArrayNode
+								items:
+									- ArrayItemNode
+										key: LiteralNode
+											token: Literal "z" <[Whitespace "  \t"]
+										colon: Colon ":" >[Whitespace " "]
+										value: LiteralNode
+											token: Literal "3" >[LineEnding "\n"]
+	endOfFile: EndOfFile ""
