@@ -1,0 +1,33 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"true",
+			{
+				"type": "string",
+				"value": "a"
+			}
+		],
+		[
+			"null",
+			{
+				"type": "string",
+				"value": "b"
+			}
+		],
+		[
+			"yes",
+			{
+				"type": "string",
+				"value": "c"
+			}
+		],
+		[
+			"2016-01-01",
+			{
+				"type": "string",
+				"value": "d"
+			}
+		]
+	]
+}

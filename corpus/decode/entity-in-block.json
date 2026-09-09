@@ -1,0 +1,71 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"services",
+			{
+				"type": "list",
+				"items": [
+					{
+						"type": "entity",
+						"value": {
+							"type": "string",
+							"value": "Foo"
+						},
+						"attributes": {
+							"type": "map",
+							"entries": [
+								[
+									"0",
+									{
+										"type": "string",
+										"value": "@bar"
+									}
+								],
+								[
+									"x",
+									{
+										"type": "int",
+										"value": "1"
+									}
+								]
+							]
+						}
+					},
+					{
+						"type": "chain",
+						"entities": [
+							{
+								"type": "entity",
+								"value": {
+									"type": "string",
+									"value": "@baz::create"
+								},
+								"attributes": {
+									"type": "list",
+									"items": []
+								}
+							},
+							{
+								"type": "entity",
+								"value": {
+									"type": "string",
+									"value": "::init"
+								},
+								"attributes": {
+									"type": "list",
+									"items": [
+										{
+											"type": "int",
+											"value": "1"
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "bool",
+			"value": true
+		},
+		{
+			"type": "string",
+			"value": "tRuE"
+		},
+		{
+			"type": "bool",
+			"value": true
+		},
+		{
+			"type": "bool",
+			"value": false
+		},
+		{
+			"type": "bool",
+			"value": false
+		},
+		{
+			"type": "bool",
+			"value": true
+		},
+		{
+			"type": "bool",
+			"value": true
+		},
+		{
+			"type": "bool",
+			"value": false
+		},
+		{
+			"type": "bool",
+			"value": false
+		},
+		{
+			"type": "null"
+		},
+		{
+			"type": "null"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"a",
+			{
+				"type": "string",
+				"value": "2016-00-10"
+			}
+		]
+	]
+}

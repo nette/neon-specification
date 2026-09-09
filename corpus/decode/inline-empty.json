@@ -1,0 +1,17 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "list",
+			"items": []
+		},
+		{
+			"type": "map",
+			"entries": []
+		},
+		{
+			"type": "list",
+			"items": []
+		}
+	]
+}

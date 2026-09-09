@@ -1,0 +1,8 @@
+# head
+
+a: 1 # one
+# about b
+b:
+  # inside
+  c: 2
+# end

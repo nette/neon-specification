@@ -1,0 +1,9 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "float",
+			"value": "0.1"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "list",
+			"items": [
+				{
+					"type": "string",
+					"value": "a"
+				},
+				{
+					"type": "map",
+					"entries": [
+						[
+							"b",
+							{
+								"type": "int",
+								"value": "1"
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"type": "list",
+			"items": [
+				{
+					"type": "string",
+					"value": "c"
+				},
+				{
+					"type": "map",
+					"entries": [
+						[
+							"d",
+							{
+								"type": "int",
+								"value": "1"
+							}
+						],
+						[
+							"e",
+							{
+								"type": "int",
+								"value": "1"
+							}
+						]
+					]
+				}
+			]
+		}
+	]
+}

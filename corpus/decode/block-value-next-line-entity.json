@@ -1,0 +1,24 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"a",
+			{
+				"type": "entity",
+				"value": {
+					"type": "string",
+					"value": "foo"
+				},
+				"attributes": {
+					"type": "list",
+					"items": [
+						{
+							"type": "string",
+							"value": "x"
+						}
+					]
+				}
+			}
+		]
+	]
+}

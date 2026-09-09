@@ -1,0 +1,9 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "int",
+			"value": "42"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"schema": 1,
+	"php3": "fixed",
+	"reason": "A literal shaped as a date whose components make no valid date is a string (values.md 6); 3.x fails with an exception of PHP, or normalizes the date to another one."
+}

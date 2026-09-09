@@ -1,0 +1,19 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"99999999999999999999",
+			{
+				"type": "string",
+				"value": "a"
+			}
+		],
+		[
+			"0",
+			{
+				"type": "string",
+				"value": "b"
+			}
+		]
+	]
+}

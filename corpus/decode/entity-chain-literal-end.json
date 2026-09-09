@@ -1,0 +1,32 @@
+{
+	"type": "chain",
+	"entities": [
+		{
+			"type": "entity",
+			"value": {
+				"type": "string",
+				"value": "foo"
+			},
+			"attributes": {
+				"type": "list",
+				"items": [
+					{
+						"type": "string",
+						"value": "a"
+					}
+				]
+			}
+		},
+		{
+			"type": "entity",
+			"value": {
+				"type": "string",
+				"value": "bar baz"
+			},
+			"attributes": {
+				"type": "list",
+				"items": []
+			}
+		}
+	]
+}

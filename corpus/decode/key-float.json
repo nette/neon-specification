@@ -1,0 +1,47 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"5.3",
+			{
+				"type": "string",
+				"value": "a"
+			}
+		],
+		[
+			"0.0001",
+			{
+				"type": "string",
+				"value": "b"
+			}
+		],
+		[
+			"1.0E-5",
+			{
+				"type": "string",
+				"value": "c"
+			}
+		],
+		[
+			"1.0E+14",
+			{
+				"type": "string",
+				"value": "d"
+			}
+		],
+		[
+			"10000000000000",
+			{
+				"type": "string",
+				"value": "e"
+			}
+		],
+		[
+			"1.2345678901235E+14",
+			{
+				"type": "string",
+				"value": "f"
+			}
+		]
+	]
+}

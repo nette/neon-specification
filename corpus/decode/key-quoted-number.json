@@ -1,0 +1,26 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"1",
+			{
+				"type": "string",
+				"value": "a"
+			}
+		],
+		[
+			"007",
+			{
+				"type": "string",
+				"value": "b"
+			}
+		],
+		[
+			"-0",
+			{
+				"type": "string",
+				"value": "c"
+			}
+		]
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "0x"
+		},
+		{
+			"type": "string",
+			"value": "0o"
+		},
+		{
+			"type": "string",
+			"value": "0b"
+		}
+	]
+}

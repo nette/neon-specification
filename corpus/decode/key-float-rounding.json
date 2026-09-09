@@ -1,0 +1,33 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"0.3",
+			{
+				"type": "string",
+				"value": "a"
+			}
+		],
+		[
+			"-1.5E-9",
+			{
+				"type": "string",
+				"value": "b"
+			}
+		],
+		[
+			"1.0E+20",
+			{
+				"type": "string",
+				"value": "c"
+			}
+		],
+		[
+			"INF",
+			{
+				"type": "string",
+				"value": "d"
+			}
+		]
+	]
+}

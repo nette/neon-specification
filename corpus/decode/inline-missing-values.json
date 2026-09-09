@@ -1,0 +1,23 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"a",
+			{
+				"type": "null"
+			}
+		],
+		[
+			"b",
+			{
+				"type": "null"
+			}
+		],
+		[
+			"c",
+			{
+				"type": "null"
+			}
+		]
+	]
+}

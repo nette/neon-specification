@@ -1,0 +1,5 @@
+{
+	"schema": 1,
+	"php3": "fixed",
+	"reason": "3.x removes every CR before lexing, the specification reads a lone CR as a space"
+}

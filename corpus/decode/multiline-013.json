@@ -1,0 +1,12 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"multi\nlines",
+			{
+				"type": "string",
+				"value": "multi\nlines"
+			}
+		]
+	]
+}
