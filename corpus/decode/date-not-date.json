@@ -1,0 +1,17 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "20160-06-03"
+		},
+		{
+			"type": "string",
+			"value": "2016-06-03 19:00"
+		},
+		{
+			"type": "string",
+			"value": "2016-06-03T19:00:00 Z1"
+		}
+	]
+}

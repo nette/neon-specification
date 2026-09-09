@@ -1,0 +1,49 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"person",
+			{
+				"type": "map",
+				"entries": [
+					[
+						"id",
+						{
+							"type": "int",
+							"value": "100"
+						}
+					],
+					[
+						"data",
+						{
+							"type": "entity",
+							"value": {
+								"type": "string",
+								"value": "Andares"
+							},
+							"attributes": {
+								"type": "map",
+								"entries": [
+									[
+										"gender",
+										{
+											"type": "string",
+											"value": "male"
+										}
+									],
+									[
+										"married",
+										{
+											"type": "bool",
+											"value": true
+										}
+									]
+								]
+							}
+						}
+					]
+				]
+			}
+		]
+	]
+}

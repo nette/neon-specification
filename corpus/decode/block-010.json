@@ -1,0 +1,64 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "map",
+			"entries": [
+				[
+					"x",
+					{
+						"type": "int",
+						"value": "20"
+					}
+				],
+				[
+					"0",
+					{
+						"type": "map",
+						"entries": [
+							[
+								"a",
+								{
+									"type": "int",
+									"value": "10"
+								}
+							],
+							[
+								"b",
+								{
+									"type": "int",
+									"value": "10"
+								}
+							]
+						]
+					}
+				]
+			]
+		},
+		{
+			"type": "map",
+			"entries": [
+				[
+					"arr",
+					{
+						"type": "list",
+						"items": [
+							{
+								"type": "int",
+								"value": "10"
+							},
+							{
+								"type": "int",
+								"value": "20"
+							}
+						]
+					}
+				]
+			]
+		},
+		{
+			"type": "string",
+			"value": "y"
+		}
+	]
+}

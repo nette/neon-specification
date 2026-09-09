@@ -1,0 +1,21 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"a",
+			{
+				"type": "list",
+				"items": [
+					{
+						"type": "int",
+						"value": "1"
+					},
+					{
+						"type": "int",
+						"value": "2"
+					}
+				]
+			}
+		]
+	]
+}

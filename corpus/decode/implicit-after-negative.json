@@ -1,0 +1,19 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"-5",
+			{
+				"type": "string",
+				"value": "a"
+			}
+		],
+		[
+			"-4",
+			{
+				"type": "string",
+				"value": "b"
+			}
+		]
+	]
+}

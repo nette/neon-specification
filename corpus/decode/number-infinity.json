@@ -1,0 +1,13 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "float",
+			"value": "INF"
+		},
+		{
+			"type": "float",
+			"value": "-INF"
+		}
+	]
+}

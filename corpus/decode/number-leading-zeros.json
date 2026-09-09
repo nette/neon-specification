@@ -1,0 +1,21 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "float",
+			"value": "1.5"
+		},
+		{
+			"type": "int",
+			"value": "777"
+		},
+		{
+			"type": "int",
+			"value": "0"
+		},
+		{
+			"type": "int",
+			"value": "0"
+		}
+	]
+}

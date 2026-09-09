@@ -1,0 +1,21 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "é"
+		},
+		{
+			"type": "string",
+			"value": "é"
+		},
+		{
+			"type": "string",
+			"value": "𐐁"
+		},
+		{
+			"type": "string",
+			"value": "𐐁"
+		}
+	]
+}

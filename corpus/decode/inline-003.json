@@ -1,0 +1,33 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"false",
+			{
+				"type": "bool",
+				"value": false
+			}
+		],
+		[
+			"on",
+			{
+				"type": "bool",
+				"value": true
+			}
+		],
+		[
+			"-5",
+			{
+				"type": "int",
+				"value": "1"
+			}
+		],
+		[
+			"5.3",
+			{
+				"type": "int",
+				"value": "1"
+			}
+		]
+	]
+}

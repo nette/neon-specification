@@ -1,0 +1,12 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"true",
+			{
+				"type": "int",
+				"value": "42"
+			}
+		]
+	]
+}

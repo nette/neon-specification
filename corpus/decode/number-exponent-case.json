@@ -1,0 +1,17 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "float",
+			"value": "100000.0"
+		},
+		{
+			"type": "float",
+			"value": "100000.0"
+		},
+		{
+			"type": "float",
+			"value": "0.0015"
+		}
+	]
+}

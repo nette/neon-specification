@@ -1,0 +1,13 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "date",
+			"value": "0000-01-01"
+		},
+		{
+			"type": "date",
+			"value": "0000-02-29"
+		}
+	]
+}

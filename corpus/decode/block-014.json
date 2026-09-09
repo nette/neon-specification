@@ -1,0 +1,31 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"root",
+			{
+				"type": "list",
+				"items": [
+					{
+						"type": "map",
+						"entries": [
+							[
+								"key1",
+								{
+									"type": "null"
+								}
+							],
+							[
+								"key3",
+								{
+									"type": "int",
+									"value": "123"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	]
+}

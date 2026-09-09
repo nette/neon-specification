@@ -1,0 +1,17 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "1e+-1"
+		},
+		{
+			"type": "string",
+			"value": "1e"
+		},
+		{
+			"type": "string",
+			"value": "1.e"
+		}
+	]
+}

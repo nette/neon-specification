@@ -1,0 +1,14 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "list",
+			"items": [
+				{
+					"type": "string",
+					"value": "c"
+				}
+			]
+		}
+	]
+}

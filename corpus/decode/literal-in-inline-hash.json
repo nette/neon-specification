@@ -1,0 +1,13 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "a#b"
+		},
+		{
+			"type": "string",
+			"value": "c"
+		}
+	]
+}

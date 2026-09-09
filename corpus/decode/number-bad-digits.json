@@ -1,0 +1,17 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "0o8"
+		},
+		{
+			"type": "string",
+			"value": "0b2"
+		},
+		{
+			"type": "string",
+			"value": "0xG"
+		}
+	]
+}
