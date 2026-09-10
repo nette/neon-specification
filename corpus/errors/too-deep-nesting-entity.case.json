@@ -1,0 +1,5 @@
+{
+	"schema": 1,
+	"php3": "fixed",
+	"reason": "Arrays nest at most 500 levels deep (grammar.md §2.7); 3.x has no limit."
+}
