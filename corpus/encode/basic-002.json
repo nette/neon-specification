@@ -1,0 +1,41 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "int",
+			"value": "1"
+		},
+		{
+			"type": "float",
+			"value": "1"
+		},
+		{
+			"type": "int",
+			"value": "0"
+		},
+		{
+			"type": "float",
+			"value": "0"
+		},
+		{
+			"type": "int",
+			"value": "-1"
+		},
+		{
+			"type": "float",
+			"value": "-1.2"
+		},
+		{
+			"type": "string",
+			"value": "1"
+		},
+		{
+			"type": "string",
+			"value": "1.0"
+		},
+		{
+			"type": "string",
+			"value": "-1"
+		}
+	]
+}

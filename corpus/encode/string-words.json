@@ -1,0 +1,25 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "null"
+		},
+		{
+			"type": "string",
+			"value": "On"
+		},
+		{
+			"type": "string",
+			"value": "tRuE"
+		},
+		{
+			"type": "string",
+			"value": "nope"
+		},
+		{
+			"type": "string",
+			"value": "yesterday"
+		}
+	]
+}

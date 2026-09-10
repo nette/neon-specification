@@ -1,0 +1,58 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"foo",
+			{
+				"type": "int",
+				"value": "1"
+			}
+		],
+		[
+			"bar",
+			{
+				"type": "map",
+				"entries": [
+					[
+						"x",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "int",
+									"value": "1"
+								},
+								{
+									"type": "int",
+									"value": "2"
+								}
+							]
+						}
+					],
+					[
+						"y",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "int",
+									"value": "3"
+								},
+								{
+									"type": "int",
+									"value": "4"
+								}
+							]
+						}
+					]
+				]
+			}
+		],
+		[
+			"baz",
+			{
+				"type": "null"
+			}
+		]
+	]
+}

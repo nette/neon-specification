@@ -1,0 +1,68 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "bool",
+			"value": true
+		},
+		{
+			"type": "string",
+			"value": "TRUE"
+		},
+		{
+			"type": "string",
+			"value": "tRuE"
+		},
+		{
+			"type": "string",
+			"value": "true"
+		},
+		{
+			"type": "bool",
+			"value": false
+		},
+		{
+			"type": "string",
+			"value": "FALSE"
+		},
+		{
+			"type": "string",
+			"value": "fAlSe"
+		},
+		{
+			"type": "string",
+			"value": "false"
+		},
+		{
+			"type": "null"
+		},
+		{
+			"type": "string",
+			"value": "NULL"
+		},
+		{
+			"type": "string",
+			"value": "nUlL"
+		},
+		{
+			"type": "string",
+			"value": "null"
+		},
+		{
+			"type": "string",
+			"value": "yes"
+		},
+		{
+			"type": "string",
+			"value": "no"
+		},
+		{
+			"type": "string",
+			"value": "on"
+		},
+		{
+			"type": "string",
+			"value": "off"
+		}
+	]
+}

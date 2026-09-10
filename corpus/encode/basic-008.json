@@ -1,0 +1,4 @@
+{
+	"type": "string",
+	"value": "aaa\n \t'''bbb\n \t\"\"\"ccc"
+}

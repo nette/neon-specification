@@ -1,0 +1,20 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"inner",
+			{
+				"type": "map",
+				"entries": [
+					[
+						"msg",
+						{
+							"type": "string",
+							"value": "string\nwith newline"
+						}
+					]
+				]
+			}
+		]
+	]
+}

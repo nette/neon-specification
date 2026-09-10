@@ -1,0 +1,29 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "1abc"
+		},
+		{
+			"type": "string",
+			"value": "+1a"
+		},
+		{
+			"type": "string",
+			"value": "-.5"
+		},
+		{
+			"type": "string",
+			"value": ".5x"
+		},
+		{
+			"type": "string",
+			"value": "0x1F"
+		},
+		{
+			"type": "string",
+			"value": "2016-01-01"
+		}
+	]
+}

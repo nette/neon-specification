@@ -1,0 +1,8 @@
+{
+	"schema": 1,
+	"hosts": [
+		"js",
+		"py"
+	],
+	"reason": "PHP holds integers beyond PHP_INT_MAX as strings"
+}

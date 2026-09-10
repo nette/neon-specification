@@ -1,0 +1,8 @@
+{
+	"schema": 1,
+	"hosts": [
+		"php",
+		"py"
+	],
+	"reason": "JavaScript cannot tell a float with no fractional part from an integer"
+}

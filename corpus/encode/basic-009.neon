@@ -1,0 +1,5 @@
+{multi: ['''
+	one
+	two
+	three\ne "'	
+''']}

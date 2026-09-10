@@ -1,0 +1,4 @@
+{
+	"type": "string",
+	"value": "a\u0001\u2028\u2029b"
+}
