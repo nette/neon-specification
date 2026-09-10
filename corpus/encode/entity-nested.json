@@ -1,0 +1,23 @@
+{
+	"type": "entity",
+	"value": {
+		"type": "string",
+		"value": "Foo"
+	},
+	"attributes": {
+		"type": "list",
+		"items": [
+			{
+				"type": "entity",
+				"value": {
+					"type": "string",
+					"value": "Bar"
+				},
+				"attributes": {
+					"type": "list",
+					"items": []
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"type": "chain",
+	"entities": [
+		{
+			"type": "entity",
+			"value": {
+				"type": "string",
+				"value": "a"
+			},
+			"attributes": {
+				"type": "list",
+				"items": []
+			}
+		},
+		{
+			"type": "entity",
+			"value": {
+				"type": "string",
+				"value": "b"
+			},
+			"attributes": {
+				"type": "list",
+				"items": [
+					{
+						"type": "int",
+						"value": "1"
+					}
+				]
+			}
+		}
+	]
+}

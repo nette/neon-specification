@@ -1,0 +1,37 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "1"
+		},
+		{
+			"type": "string",
+			"value": "0xAA"
+		},
+		{
+			"type": "string",
+			"value": "0o12"
+		},
+		{
+			"type": "string",
+			"value": "0b110"
+		},
+		{
+			"type": "string",
+			"value": "+1"
+		},
+		{
+			"type": "string",
+			"value": "-1"
+		},
+		{
+			"type": "string",
+			"value": ".50"
+		},
+		{
+			"type": "string",
+			"value": "1e10"
+		}
+	]
+}

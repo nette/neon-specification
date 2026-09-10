@@ -1,0 +1,12 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"foo",
+			{
+				"type": "string",
+				"value": "bar"
+			}
+		]
+	]
+}

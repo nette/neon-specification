@@ -1,0 +1,37 @@
+{
+	"type": "list",
+	"items": [
+		{
+			"type": "string",
+			"value": "["
+		},
+		{
+			"type": "string",
+			"value": "]"
+		},
+		{
+			"type": "string",
+			"value": "{"
+		},
+		{
+			"type": "string",
+			"value": "}"
+		},
+		{
+			"type": "string",
+			"value": ":"
+		},
+		{
+			"type": "string",
+			"value": ": "
+		},
+		{
+			"type": "string",
+			"value": "="
+		},
+		{
+			"type": "string",
+			"value": "#"
+		}
+	]
+}

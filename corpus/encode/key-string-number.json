@@ -1,0 +1,40 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"5.3",
+			{
+				"type": "int",
+				"value": "1"
+			}
+		],
+		[
+			"true",
+			{
+				"type": "int",
+				"value": "2"
+			}
+		],
+		[
+			"",
+			{
+				"type": "int",
+				"value": "3"
+			}
+		],
+		[
+			"a b",
+			{
+				"type": "int",
+				"value": "4"
+			}
+		],
+		[
+			"007",
+			{
+				"type": "int",
+				"value": "5"
+			}
+		]
+	]
+}

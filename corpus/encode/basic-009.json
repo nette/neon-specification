@@ -1,0 +1,17 @@
+{
+	"type": "map",
+	"entries": [
+		[
+			"multi",
+			{
+				"type": "list",
+				"items": [
+					{
+						"type": "string",
+						"value": "one\ntwo\nthree\\ne \"'\t"
+					}
+				]
+			}
+		]
+	]
+}

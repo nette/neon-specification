@@ -1,0 +1,16 @@
+- true
+- 'TRUE'
+- 'tRuE'
+- 'true'
+- false
+- 'FALSE'
+- 'fAlSe'
+- 'false'
+- null
+- 'NULL'
+- 'nUlL'
+- 'null'
+- 'yes'
+- 'no'
+- 'on'
+- 'off'

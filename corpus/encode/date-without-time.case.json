@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"hosts": [
+		"js",
+		"py",
+		"go",
+		"rs"
+	],
+	"reason": "a date without time and offset does not exist in PHP"
+}
