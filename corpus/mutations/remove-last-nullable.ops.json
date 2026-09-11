@@ -1,0 +1,10 @@
+[
+	{
+		"op": "remove",
+		"path": [
+			"database",
+			"host"
+		],
+		"nullable": true
+	}
+]

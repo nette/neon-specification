@@ -1,0 +1,5 @@
+services:
+  - A
+  - B
+b:
+  x: 1

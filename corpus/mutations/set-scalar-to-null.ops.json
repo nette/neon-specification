@@ -1,0 +1,11 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"a"
+		],
+		"value": {
+			"type": "null"
+		}
+	}
+]

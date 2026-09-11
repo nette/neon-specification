@@ -1,0 +1,5 @@
+﻿# header
+
+database:
+	host: db.example.com # the server
+	port: 3306

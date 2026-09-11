@@ -1,0 +1,14 @@
+[
+	{
+		"op": "add",
+		"path": [
+			"x"
+		],
+		"key": "y",
+		"value": {
+			"type": "int",
+			"value": "9"
+		},
+		"position": 1
+	}
+]

@@ -1,0 +1,7 @@
+hex: 0x0CEB
+oct: 0o10
+flag: no
+Flag: False
+quoted: 'it''s'
+double: "say \"hi\""
+plain: 'needs: quotes'

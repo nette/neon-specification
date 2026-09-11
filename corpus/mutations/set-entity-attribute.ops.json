@@ -1,0 +1,14 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"services",
+			"mailer",
+			"timeout"
+		],
+		"value": {
+			"type": "int",
+			"value": "60"
+		}
+	}
+]

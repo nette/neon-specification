@@ -1,0 +1,60 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"parameters",
+			"debug"
+		],
+		"value": {
+			"type": "bool",
+			"value": true
+		}
+	},
+	{
+		"op": "add",
+		"path": [
+			"services"
+		],
+		"value": {
+			"type": "string",
+			"value": "C"
+		},
+		"position": 1
+	},
+	{
+		"op": "remove",
+		"path": [
+			"services",
+			0
+		]
+	},
+	{
+		"op": "set",
+		"path": [
+			"parameters",
+			"level"
+		],
+		"value": {
+			"type": "int",
+			"value": "3"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"extensions"
+		],
+		"value": {
+			"type": "map",
+			"entries": [
+				[
+					"x",
+					{
+						"type": "string",
+						"value": "X"
+					}
+				]
+			]
+		}
+	}
+]

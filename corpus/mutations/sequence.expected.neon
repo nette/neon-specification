@@ -1,0 +1,10 @@
+# config
+parameters:
+	debug: yes
+	level: 3
+
+services:
+	- C
+	- B
+extensions:
+	x: X

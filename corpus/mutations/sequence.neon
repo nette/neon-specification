@@ -1,0 +1,7 @@
+# config
+parameters:
+	debug: no
+
+services:
+	- A
+	- B

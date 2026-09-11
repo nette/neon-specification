@@ -1,0 +1,7 @@
+{
+	"type": "map",
+	"entries": [
+		["1", {"type": "string", "value": "b"}],
+		["2", {"type": "string", "value": "c"}]
+	]
+}

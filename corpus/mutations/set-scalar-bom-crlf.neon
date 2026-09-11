@@ -1,0 +1,5 @@
+﻿# header
+
+database:
+	host: localhost # the server
+	port: 3306

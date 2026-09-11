@@ -1,0 +1,21 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"a"
+		],
+		"value": {
+			"type": "list",
+			"items": [
+				{
+					"type": "string",
+					"value": "p"
+				},
+				{
+					"type": "string",
+					"value": "q"
+				}
+			]
+		}
+	}
+]

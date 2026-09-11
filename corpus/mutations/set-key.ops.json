@@ -1,0 +1,16 @@
+[
+	{
+		"op": "setKey",
+		"path": [
+			"a"
+		],
+		"key": "x"
+	},
+	{
+		"op": "setKey",
+		"path": [
+			"b c"
+		],
+		"key": "d e"
+	}
+]
