@@ -1,0 +1,23 @@
+[
+	{
+		"op": "add",
+		"path": [
+			"a"
+		],
+		"key": "y",
+		"value": {
+			"type": "int",
+			"value": "2"
+		}
+	},
+	{
+		"op": "add",
+		"path": [
+			"b"
+		],
+		"value": {
+			"type": "string",
+			"value": "q"
+		}
+	}
+]

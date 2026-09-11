@@ -1,0 +1,14 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"x",
+			"b"
+		],
+		"value": {
+			"type": "int",
+			"value": "2"
+		},
+		"expectError": "No item 'x' in the path x.b"
+	}
+]

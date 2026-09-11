@@ -1,0 +1,21 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"services"
+		],
+		"value": {
+			"type": "list",
+			"items": [
+				{
+					"type": "string",
+					"value": "A"
+				},
+				{
+					"type": "string",
+					"value": "B"
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,13 @@
+[
+	{
+		"op": "add",
+		"path": [
+			"list"
+		],
+		"value": {
+			"type": "string",
+			"value": "a"
+		},
+		"position": 0
+	}
+]

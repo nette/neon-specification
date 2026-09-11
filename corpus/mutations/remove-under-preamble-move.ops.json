@@ -1,0 +1,9 @@
+[
+	{
+		"op": "remove",
+		"path": [
+			"a"
+		],
+		"comments": "move"
+	}
+]

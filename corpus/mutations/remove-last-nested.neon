@@ -1,0 +1,3 @@
+services:
+	- Foo
+other: 1

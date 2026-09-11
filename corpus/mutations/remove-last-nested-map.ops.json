@@ -1,0 +1,9 @@
+[
+	{
+		"op": "remove",
+		"path": [
+			"database",
+			"host"
+		]
+	}
+]

@@ -1,0 +1,21 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"a",
+			"y"
+		],
+		"value": {
+			"type": "map",
+			"entries": [
+				[
+					"p",
+					{
+						"type": "int",
+						"value": "1"
+					}
+				]
+			]
+		}
+	}
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"hex"
+		],
+		"value": {
+			"type": "int",
+			"value": "3307"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"oct"
+		],
+		"value": {
+			"type": "int",
+			"value": "8"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"flag"
+		],
+		"value": {
+			"type": "bool",
+			"value": false
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"Flag"
+		],
+		"value": {
+			"type": "bool",
+			"value": false
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"quoted"
+		],
+		"value": {
+			"type": "string",
+			"value": "it's"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"double"
+		],
+		"value": {
+			"type": "string",
+			"value": "say \"hi\""
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"plain"
+		],
+		"value": {
+			"type": "string",
+			"value": "needs: quotes"
+		}
+	}
+]

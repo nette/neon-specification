@@ -1,0 +1,7 @@
+hex: 0x0CEA
+oct: 0o17
+flag: yes
+Flag: True
+quoted: 'a'
+double: "b"
+plain: c

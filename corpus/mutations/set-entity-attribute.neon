@@ -1,0 +1,2 @@
+services:
+	mailer: App\Mailer(@smtp, timeout: 30)

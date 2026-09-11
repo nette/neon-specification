@@ -1,0 +1,5 @@
+hex: 0x10
+flag: YES
+float: 1.00
+when: 2016-06-03 19:00:00
+list: [a, b]

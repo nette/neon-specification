@@ -1,0 +1,61 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"hex"
+		],
+		"value": {
+			"type": "int",
+			"value": "16"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"flag"
+		],
+		"value": {
+			"type": "bool",
+			"value": true
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"float"
+		],
+		"value": {
+			"type": "float",
+			"value": "1.0"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"when"
+		],
+		"value": {
+			"type": "date",
+			"value": "2016-06-03 19:00:00"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"list"
+		],
+		"value": {
+			"type": "list",
+			"items": [
+				{
+					"type": "string",
+					"value": "a"
+				},
+				{
+					"type": "string",
+					"value": "b"
+				}
+			]
+		}
+	}
+]

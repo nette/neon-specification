@@ -1,0 +1,13 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"database",
+			"host"
+		],
+		"value": {
+			"type": "string",
+			"value": "db.example.com"
+		}
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"b"
+		],
+		"value": {
+			"type": "string",
+			"value": "line\nbreak"
+		}
+	}
+]

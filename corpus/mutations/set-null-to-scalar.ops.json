@@ -1,0 +1,22 @@
+[
+	{
+		"op": "set",
+		"path": [
+			"a"
+		],
+		"value": {
+			"type": "int",
+			"value": "1"
+		}
+	},
+	{
+		"op": "set",
+		"path": [
+			"b"
+		],
+		"value": {
+			"type": "int",
+			"value": "2"
+		}
+	}
+]

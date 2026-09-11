@@ -1,0 +1,22 @@
+[
+	{
+		"op": "add",
+		"path": [
+			"a"
+		],
+		"value": {
+			"type": "string",
+			"value": "z"
+		}
+	},
+	{
+		"op": "add",
+		"path": [
+			"b"
+		],
+		"value": {
+			"type": "string",
+			"value": "z"
+		}
+	}
+]

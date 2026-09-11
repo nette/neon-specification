@@ -1,0 +1,5 @@
+db:
+	host: x
+	# legacy
+	driver: y # see
+	user: z
