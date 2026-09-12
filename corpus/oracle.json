@@ -1,0 +1,7 @@
+{
+	"nette/neon": "v3.4.8",
+	"php": "8.4",
+	"serialize_precision": "-1",
+	"precision": "14",
+	"date.timezone": "UTC"
+}
