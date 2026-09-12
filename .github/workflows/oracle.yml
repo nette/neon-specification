@@ -1,0 +1,20 @@
+name: Oracle
+
+on: [push, pull_request]
+
+jobs:
+  oracle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.4
+          extensions: bcmath
+          coverage: none
+
+      - run: composer install --no-progress --working-dir=tools
+      - run: php tools/php-oracle.php selfcheck
+      - run: php tools/php-oracle.php check
