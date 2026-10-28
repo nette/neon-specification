@@ -1,0 +1,18 @@
+DocumentNode
+	value: InlineArrayNode
+		openBracket: OpenBrace "{" >[LineEnding "\n"]
+		items:
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "a" <[Whitespace "\t"]
+				colon: Colon ":" >[LineEnding "\n"]
+				value: LiteralNode
+					token: Literal "b" <[Whitespace "\t\t"] >[LineEnding "\n"]
+			- ArrayItemNode
+				key: LiteralNode
+					token: Literal "c" <[Whitespace "\t"] >[LineEnding "\n"]
+				colon: Colon ":" <[Whitespace "\t"] >[Whitespace " "]
+				value: LiteralNode
+					token: Literal "1" >[LineEnding "\n"]
+		closeBracket: CloseBrace "}"
+	endOfFile: EndOfFile ""

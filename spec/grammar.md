@@ -265,16 +265,22 @@ inline-array := open items close
 ```
 
 `open` is `OpenBracket`, `OpenBrace` or `OpenParen`, `close` is its pair. Inside the
-brackets, line endings and indentation carry no meaning. Items are separated by a
-`Comma`, by a line ending, or by both; a trailing comma is allowed.
+brackets, indentation carries no meaning. Items are separated by a `Comma`, by a line
+ending, or by both; a trailing comma is allowed.
 
 ```
 item := value | key (Colon | Equals) value?
 ```
 
-The value after a key may be missing when the key is followed by a comma, a line
-ending or the closing bracket (`{g:, h:}`). `{,}` and `{a, ,}` fail with
-`Unexpected ','`. Keys are checked as in a block.
+The value after a key may be missing when the colon is followed by a comma or the
+closing bracket (`{g:, h:}`). After a line ending, the next value is the value of the
+key, unless it is followed, possibly after line endings, by `Colon` or `Equals` and so
+is the key of the next item: `{a:` + line ending + `b}` is `{a: b}`, as in JSON, and
+`{a:` + line ending + `b: 1}` is `{a: null, b: 1}`. A comma or the closing bracket after
+the line ending leaves the value missing too. Line endings may also stand between a key
+and its colon: `{"a"` + line ending + `: 1}` is `{a: 1}`, while `:1` at the start of a
+line is a literal (§1.3, rule 8), so `{"a"` + line ending + `:1}` is `["a", ":1"]`.
+`{,}` and `{a, ,}` fail with `Unexpected ','`. Keys are checked as in a block.
 
 **Entity.** A value followed by `OpenParen` (whitespace in between is allowed:
 `item (a, b)`) is an entity: the parenthesized inline array is its attributes. Then a

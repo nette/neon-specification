@@ -8,7 +8,9 @@ reads the same in each of them, and is printed and edited the same.
 
 The specification has a version of its own (`spec/VERSION`), independent of the
 versions of the implementations. Version 1.0 describes the format as nette/neon 4.0
-reads and writes it; nette/neon 3.x is its historical baseline.
+reads and writes it; nette/neon 3.x is its historical baseline. Version 1.1 reads a
+value on the line after its key in an inline array as the value of that key, as JSON
+does, and allows a line ending between a key and its colon (grammar.md §2.5).
 
 - `spec/`: the grammar, the value model and how hosts map it, the error messages, the
   encoder, the lossless syntax tree and the editing operations, the `neon-lint` contract

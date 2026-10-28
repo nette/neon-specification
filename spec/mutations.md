@@ -97,8 +97,8 @@ token and the trailing trivia of its last. The transitions:
 - scalar to block: the line ending stays after the colon, and the items of the block
   get the indentation of the parent plus one unit (§4);
 - block to scalar, and an inline array, which is replaced as a scalar;
-- a **value on the next line** (grammar.md §2.3) stays on its line, and only its token
-  changes.
+- a **value on the next line** (grammar.md §2.3, §2.5) stays on its line, and only its
+  token changes.
 
 A host array given to an item without a value becomes a block if the parent is a
 block, and an inline `[]` or `{}` array otherwise.
@@ -198,7 +198,7 @@ New values are written as `encode()` writes them (encoding.md), indented for the
 
 ## 4a. Keys and traps of the grammar
 
-An edit must not change what the rest of the document means. Four rules follow from the
+An edit must not change what the rest of the document means. Five rules follow from the
 grammar:
 
 - **The keys of the other items do not change.** A key written in the file is never
@@ -211,6 +211,9 @@ grammar:
 - **A key without a value followed by a dash** at the same indentation would read as a
   dash subblock (grammar.md §2.3), so such a key gets an explicit `null`; and a dash that
   comes right after a dash subblock gets its key written out, which ends the subblock.
+- **A key without a value followed by a line ending and an item without a key** in an
+  inline array would get that item as its value (grammar.md §2.5), so such a key gets an
+  explicit `null`.
 - **An empty `'''` string closed on the line right after its opening** is closed by any
   later line that starts with `'''` (grammar.md §1.4.3). In a document that holds one,
   new multiline strings are written with `"""`.

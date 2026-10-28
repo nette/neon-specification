@@ -1,0 +1,13 @@
+[
+	{
+		"op": "add",
+		"path": [
+			"x"
+		],
+		"value": {
+			"type": "string",
+			"value": "y"
+		},
+		"position": 1
+	}
+]
